@@ -44,21 +44,37 @@ section {
 }
 
 .project-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
     background: white;
     margin: 30px auto;
     padding: 20px;
+
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    max-width: 850px;
 }
 
 .project-card img {
-    width: 100%;
-    max-width: 500px;
-    height: auto;
-    display: block;
-    margin: 0 auto 20px;
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
     border-radius: 10px;
+    flex-shrink: 0;
+}
+
+@media (max-width: 700px) {
+    .project-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .project-card img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
 }
 
 .project-card div {
