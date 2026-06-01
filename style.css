@@ -44,6 +44,9 @@ section {
 }
 
 .project-card {
+    width:50px !important;
+    height:50px !important;
+    border:5px solid red !important;
     display: flex;
     align-items: center;
     gap: 20px;
