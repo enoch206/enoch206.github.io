@@ -71,3 +71,9 @@ footer \{\
     background-color: #1f2937;\
     color: white;\
 \}}
+.project-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
