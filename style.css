@@ -37,17 +37,26 @@ section {
 }
 
 .project-card {
-    display: flex;
-    align-items: flex-start;
-    gap: 20px;
+    display:flex;
+    align-items:flex-start;
+    gap: 15px;
+    padding: 15px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border: 1px solid rgba(0,0,0,0.08);
+}
+
+.project-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
 .project-card img {
-    width: 150px !important;
-    height: 110px !important;
+    width: 160px;
+    height: 110px;
     object-fit: cover;
     border-radius: 10px;
     display: block;
+    border-radius:8px;
 }
 
 @media (max-width: 700px) {
@@ -102,4 +111,16 @@ footer {
 
 .skill-category li {
     margin-bottom: 8px;
+}
+.maincharacter-summary {
+    max-width: 600px;
+    margin: 10px auto 0;
+    opacity: 0.9;
+    line-height: 1.5;
+}
+h2 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    border-left: 4px solid #1f2937;
+    padding-left: 10px;
 }
