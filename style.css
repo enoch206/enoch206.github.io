@@ -125,3 +125,12 @@ h2 {
     border-left: 4px solid #1f2937;
     padding-left: 10px;
 }
+.project-tag {
+    font-size: 0.8rem;
+    background: #1f2937;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 6px 0 10px 0;
+}
