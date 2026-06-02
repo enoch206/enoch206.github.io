@@ -134,3 +134,18 @@ h2 {
     display: inline-block;
     margin: 6px 0 10px 0;
 }
+#projects {
+    background: #f9fafb;
+    border-radius: 10px;
+}
+
+#repair-log {
+    background: #ffffff;
+    border-left: 4px solid #1f2937;
+}
+.section-subtitle {
+    color: #6b7280;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 0.95rem;
+}
